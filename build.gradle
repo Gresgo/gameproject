@@ -20,6 +20,7 @@ dependencies {
     implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk8"
 
     implementation platform("org.lwjgl:lwjgl-bom:3.2.3")
+    implementation files('libs/slick-util3.jar')
 
     implementation "org.lwjgl:lwjgl"
     implementation "org.lwjgl:lwjgl-assimp"

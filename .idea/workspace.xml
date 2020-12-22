@@ -1,7 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="84d29d55-86d6-4f38-8c51-c8952d88d7ef" name="Default Changelist" comment="" />
+    <list default="true" id="84d29d55-86d6-4f38-8c51-c8952d88d7ef" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/client/engine/Camera.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/client/engine/Game.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/client/engine/Screen.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/client/engine/Texture.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/clientside/Helper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/clientside/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/clientside/TcpConnection.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/clientside/UdpConnection.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/clientside/models/Box.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/clientside/models/Bullet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/clientside/models/CharacterObj.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/clientside/models/ServerMessage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/engine/graphics/Mesh.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/client/engine/graphics/Mesh.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/engine/graphics/Renderer.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/client/engine/graphics/Renderer.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/engine/graphics/Shader.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/client/engine/graphics/Shader.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/engine/graphics/Vertex.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/client/engine/graphics/Vertex.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/engine/io/Input.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/client/engine/io/Input.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/engine/io/Window.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/client/engine/io/Window.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/engine/math/Vector3f.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/client/engine/math/Vector3f.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/engine/utils/FileUtils.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/client/engine/utils/FileUtils.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/main/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/client/main/Main.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/shaders/mainFragment.glsl" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/shaders/mainFragment.glsl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/shaders/mainVertex.glsl" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/shaders/mainVertex.glsl" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
@@ -10,6 +36,11 @@
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/gameproject$Client.ic" NAME="Client Coverage Results" MODIFIED="1608475840505" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>net.moonscapes.client.*</FILTER>
+    </SUITE>
   </component>
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
@@ -49,88 +80,100 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/kotlin/engine/io/Window.kt">
+        <entry file="file://$PROJECT_DIR$/src/main/kotlin/client/engine/objects/GameObject.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1580">
-              <caret line="89" column="70" selection-start-line="89" selection-start-column="70" selection-end-line="89" selection-end-column="70" />
+            <state relative-caret-position="120">
+              <caret line="7" column="11" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="11" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/kotlin/engine/utils/FileUtils.kt">
+        <entry file="file://$PROJECT_DIR$/src/main/kotlin/net/socket/DatagramListener.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="480">
-              <caret line="26" column="56" selection-start-line="26" selection-start-column="56" selection-end-line="26" selection-end-column="56" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/kotlin/engine/graphics/Mesh.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="22" selection-start-line="22" selection-end-line="22" />
+            <state relative-caret-position="80">
+              <caret line="9" column="6" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
               <folding>
-                <element signature="e#25#203#0" expanded="true" />
+                <element signature="e#20#191#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/engine/Game.java">
+        <entry file="file://$PROJECT_DIR$/src/main/kotlin/net/socket/DatagramSender.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="780">
-              <caret line="45" column="35" selection-start-line="45" selection-start-column="35" selection-end-line="45" selection-end-column="35" />
+            <state relative-caret-position="140">
+              <caret line="13" selection-start-line="13" selection-end-line="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/kotlin/server/Main.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="140">
+              <caret line="7" column="1" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/engine/Texture.java">
+        <entry file="file://$PROJECT_DIR$/src/main/kotlin/client/main/Main.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="620">
-              <caret line="34" column="1" selection-start-line="34" selection-start-column="1" selection-end-line="34" selection-end-column="1" />
+            <state relative-caret-position="360">
+              <caret line="18" column="33" selection-start-line="18" selection-start-column="33" selection-end-line="18" selection-end-column="33" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/kotlin/engine/graphics/Renderer.kt">
+        <entry file="file://$PROJECT_DIR$/src/main/kotlin/net/server/NetServerImpl.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="400">
-              <caret line="22" column="1" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
+            <state relative-caret-position="1040">
+              <caret line="66" column="13" selection-start-line="66" selection-start-column="13" selection-end-line="66" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/kotlin/net/packet/LoginPacket.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="4" selection-start-line="3" selection-start-column="31" selection-end-line="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/kotlin/client/engine/graphics/Mesh.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="10" selection-start-line="10" selection-end-line="10" />
               <folding>
-                <element signature="e#25#111#0" expanded="true" />
+                <element signature="e#32#280#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/kotlin/engine/graphics/Vertex.kt">
+        <entry file="file://$PROJECT_DIR$/src/main/kotlin/server/ServerClient.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="3" selection-start-line="3" selection-end-line="3" />
+            <state relative-caret-position="360">
+              <caret line="20" selection-start-line="20" selection-end-line="20" />
+              <folding>
+                <element signature="e#16#97#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/shaders/mainVertex.glsl">
+        <entry file="file://$PROJECT_DIR$/src/main/kotlin/net/Net.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="6" selection-start-line="6" selection-end-line="6" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/shaders/mainFragment.glsl">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+            <state relative-caret-position="140">
+              <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -140,14 +183,46 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Kotlin Class" />
+        <option value="Class" />
         <option value="Kotlin File" />
+        <option value="Kotlin Interface" />
+        <option value="Kotlin Object" />
+        <option value="Kotlin Class" />
       </list>
     </option>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
+      <find>connection</find>
+      <find>setbitmap</find>
+      <find>objects</find>
+      <find>cave</find>
+      <find>paint</find>
+      <find>default</find>
+      <find>conn</find>
+      <find>bitmap</find>
       <find>rende</find>
+      <find>render</find>
+      <find>ren</find>
+      <find>send</find>
+      <find>camera</find>
+      <find>back</find>
+      <find>thread</find>
+      <find>connect</find>
+      <find>handlePacket</find>
+      <find>handle</find>
+      <find>connected</find>
+      <find>nextclientid</find>
+      <find>updateobjectP</find>
+      <find>main</find>
+      <find>name</find>
+      <find>packet name</find>
+      <find>packetWait</find>
+      <find>login</find>
+      <find>ask</find>
+      <find>socket</find>
+      <find>socketLi</find>
+      <find>dis</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -156,51 +231,73 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/kotlin/com/abcd/Main.kt" />
-        <option value="$PROJECT_DIR$/src/main/java/engine/Game.java" />
-        <option value="$PROJECT_DIR$/src/main/java/engine/Camera.java" />
-        <option value="$PROJECT_DIR$/src/main/java/engine/Screen.java" />
-        <option value="$PROJECT_DIR$/src/main/java/engine/Texture.java" />
-        <option value="$PROJECT_DIR$/build.gradle" />
-        <option value="$PROJECT_DIR$/src/main/java/clientside/TcpConnection.java" />
-        <option value="$PROJECT_DIR$/src/main/java/clientside/models/ServerMessage.java" />
-        <option value="$PROJECT_DIR$/src/main/java/clientside/models/CharacterObj.java" />
-        <option value="$PROJECT_DIR$/src/main/java/clientside/models/Bullet.java" />
-        <option value="$PROJECT_DIR$/src/main/java/clientside/models/Box.java" />
-        <option value="$PROJECT_DIR$/src/main/java/clientside/UdpConnection.java" />
-        <option value="$PROJECT_DIR$/src/main/java/clientside/Main.java" />
-        <option value="$PROJECT_DIR$/src/main/java/clientside/Helper.java" />
-        <option value="$PROJECT_DIR$/src/main/kotlin/main/window/Window.kt" />
-        <option value="$PROJECT_DIR$/src/main/kotlin/main/engine/Input.kt" />
-        <option value="$PROJECT_DIR$/src/main/kotlin/main/engine/Window.kt" />
-        <option value="$PROJECT_DIR$/src/main/kotlin/math/Vector3f.kt" />
-        <option value="$PROJECT_DIR$/src/main/kotlin/engine/Window.kt" />
-        <option value="$PROJECT_DIR$/src/main/kotlin/io/Window.kt" />
-        <option value="$PROJECT_DIR$/src/main/kotlin/main/Main.kt" />
-        <option value="$PROJECT_DIR$/resources/shaders/mainVertex.glsl" />
-        <option value="$PROJECT_DIR$/src/main/kotlin/engine/graphics/Shader.kt" />
-        <option value="$PROJECT_DIR$/src/main/kotlin/engine/graphics/Vertex.kt" />
-        <option value="$PROJECT_DIR$/src/main/resources/shaders/mainFragment.glsl" />
-        <option value="$PROJECT_DIR$/src/main/resources/shaders/mainVertex.glsl" />
-        <option value="$PROJECT_DIR$/src/main/kotlin/engine/utils/FileUtils.kt" />
-        <option value="$PROJECT_DIR$/src/main/kotlin/engine/graphics/Renderer.kt" />
-        <option value="$PROJECT_DIR$/src/main/kotlin/engine/io/Window.kt" />
-        <option value="$PROJECT_DIR$/src/main/kotlin/engine/graphics/Mesh.kt" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/client/engine/objects/FirstPersonCamera.kt" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/client/engine/objects/ThirdPersonCamera.kt" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/client/engine/objects/World.kt" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/server/Packet.kt" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/server/MetaPacket.kt" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/server/Client.kt" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/server/AddressPort.kt" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/server/PacketHandler.kt" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/server/packets/ClosePacket.kt" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/server/ServerClient.kt" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/server/ServerImpl.kt" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/server/Main.kt" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/server/NetServer.kt" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/server/packet/LoginPacket.kt" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/server/packet/ChatPacket.kt" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/server/packet/InputPacket.kt" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/server/packet/UpdateObjectPacket.kt" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/server/Player.kt" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/client/net/NetClient.kt" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/client/net/ClientHandler.kt" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/server/Command.kt" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/client/net/ClientPacketFactory.kt" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/client/net/NetClientImpl.kt" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/server/Net.kt" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/server/ServerPacketFactory.kt" />
+        <option value="$PROJECT_DIR$/src/main/java/net/moonscapes/netplay/server/NetplayServerImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/net/moonscapes/netplay/server/ServerPacketFactory.java" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/server/PacketNameMapper.kt" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/server/IServerHandler.kt" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/server/NetServerImpl.kt" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/server/SocketListener.kt" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/server/PacketFactory.kt" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/server/DatagramSender.kt" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/server/DatagramListener.kt" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/client/main/Main.kt" />
+        <option value="$PROJECT_DIR$/src/main/resources/shaders/crosshairVertex.glsl" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/client/engine/graphics/Renderer.kt" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/server/BasePacketFactory.kt" />
+        <option value="$PROJECT_DIR$/src/main/java/net/moonscapes/packet/UpdateObjectsPacket.java" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/server/packet/UpdateObjectsPacket.kt" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/client/engine/objects/GameObject.kt" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/server/packet/LoginSuccessPacket.kt" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/server/ServerObject.kt" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/server/World.kt" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/server/packet/UpdatePlayerPacket.kt" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/server/Server.kt" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/server/packet/UpdatePlayersPacket.kt" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/client/engine/objects/camera/FirstPersonCamera.kt" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/client/engine/io/Window.kt" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/client/engine/graphics/Mesh.kt" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/net/server/NetServerImpl.kt" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-7" />
     <option name="width" value="1734" />
     <option name="height" value="1407" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope">
         <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
           <expand>
@@ -227,6 +324,24 @@
             <path>
               <item name="gameproject" type="b2602c69:ProjectViewProjectNode" />
               <item name="gameproject" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gameproject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gameproject" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+              <item name="production" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gameproject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gameproject" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+              <item name="production" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gameproject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gameproject" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -234,21 +349,6 @@
               <item name="gameproject" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-            </path>
-            <path>
-              <item name="gameproject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="gameproject" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="gameproject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="gameproject" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="engine" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="gameproject" type="b2602c69:ProjectViewProjectNode" />
@@ -263,7 +363,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="kotlin" type="462c0819:PsiDirectoryNode" />
-              <item name="engine" type="462c0819:PsiDirectoryNode" />
+              <item name="client" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="gameproject" type="b2602c69:ProjectViewProjectNode" />
@@ -271,8 +371,33 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="kotlin" type="462c0819:PsiDirectoryNode" />
-              <item name="engine" type="462c0819:PsiDirectoryNode" />
-              <item name="graphics" type="462c0819:PsiDirectoryNode" />
+              <item name="client" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gameproject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gameproject" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="kotlin" type="462c0819:PsiDirectoryNode" />
+              <item name="net" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gameproject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gameproject" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="kotlin" type="462c0819:PsiDirectoryNode" />
+              <item name="net" type="462c0819:PsiDirectoryNode" />
+              <item name="socket" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gameproject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gameproject" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="kotlin" type="462c0819:PsiDirectoryNode" />
+              <item name="server" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="gameproject" type="b2602c69:ProjectViewProjectNode" />
@@ -280,48 +405,50 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="gameproject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="gameproject" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="shaders" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1608129118828" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1608595623744" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../mineforge" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.gradle" />
+    <property name="settings.editor.selected.configurable" value="copyright.filetypes.Kotlin" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveKotlinTopLevelDeclarationsDialog.RECENTS_KEY">
+      <recent name="net.packet" />
+      <recent name="net.socket" />
+      <recent name="client.net.packet" />
+      <recent name="client.net.utils" />
+      <recent name="client.net.server" />
+    </key>
     <key name="CopyKotlinDeclarationDialog.RECENTS_KEY">
       <recent name="com.abcd" />
     </key>
-    <key name="MoveKotlinTopLevelDeclarationsDialog.RECENTS_KEY">
-      <recent name="io" />
-      <recent name="main.engine" />
-    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
-      <recent name="engine" />
       <recent name="" />
+      <recent name="client" />
+      <recent name="engine" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Gresgo\Desktop\учеба\4 курс\1 sem\ооп\ффф\gameproject\src\main\resources\shaders" />
+      <recent name="C:\Users\Gresgo\Desktop\учеба\4 курс\1 sem\ооп\ффф\gameproject\resources" />
+      <recent name="C:\Users\Gresgo\Desktop\учеба\4 курс\1 sem\ооп\ффф\gameproject\src\main\java\clientside" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="clientside" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\Gresgo\Desktop\учеба\4 курс\1 sem\ооп\ффф\gameproject\resources" />
-      <recent name="C:\Users\Gresgo\Desktop\учеба\4 курс\1 sem\ооп\ффф\gameproject\src\main\resources\shaders" />
-      <recent name="C:\Users\Gresgo\Desktop\учеба\4 курс\1 sem\ооп\ффф\gameproject\src\main\java\clientside" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Gresgo\Desktop\учеба\4 курс\1 sem\ооп\ффф\gameproject\src\main\kotlin\client\net\client" />
+      <recent name="C:\Users\Gresgo\Desktop\учеба\4 курс\1 sem\ооп\ффф\gameproject\src\main\kotlin\client\net\packet" />
+      <recent name="C:\Users\Gresgo\Desktop\учеба\4 курс\1 sem\ооп\ффф\gameproject\src\main\resources" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -336,13 +463,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Game">
-    <configuration name="Game" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="engine.Game" />
+  <component name="RunManager" selected="Kotlin.client.main.MainKt">
+    <configuration name="Client" type="Application" factoryName="Application" singleton="false" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="net.moonscapes.client.Client" />
       <module name="gameproject.gameproject.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="engine.*" />
+          <option name="PATTERN" value="net.moonscapes.client.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -350,43 +477,72 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="gameproject [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value="build" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
-      <method v="2" />
+    <configuration name="Main" type="Application" factoryName="Application" singleton="false" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="tanks.client.Main" />
+      <module name="gameproject.gameproject.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tanks.client.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
-    <configuration name="main.MainKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+    <configuration name="Server" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="net.moonscapes.server.Server" />
+      <module name="gameproject.gameproject.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="net.moonscapes.server.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="client.main.MainKt" type="JetRunConfigurationType" factoryName="Kotlin" singleton="false" temporary="true" nameIsGenerated="true">
+      <module name="gameproject.gameproject.main" />
+      <option name="VM_PARAMETERS" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="client.main.MainKt" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="server.MainKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="gameproject.gameproject.main" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="main.MainKt" />
+      <option name="MAIN_CLASS_NAME" value="server.MainKt" />
       <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Application.Client" />
+      <item itemvalue="Application.Server" />
+      <item itemvalue="Application.Main" />
+      <item itemvalue="Kotlin.client.main.MainKt" />
+      <item itemvalue="Kotlin.server.MainKt" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Game" />
-        <item itemvalue="Kotlin.main.MainKt" />
-        <item itemvalue="Gradle.gameproject [build]" />
+        <item itemvalue="Kotlin.client.main.MainKt" />
+        <item itemvalue="Kotlin.server.MainKt" />
+        <item itemvalue="Application.Client" />
+        <item itemvalue="Application.Server" />
+        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -403,10 +559,19 @@
     </task>
     <servers />
   </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="0" width="1734" height="1407" extended-state="0" />
+    <frame x="-8" y="-8" width="3456" height="1416" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17682198" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.09246172" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -414,17 +579,17 @@
       <window_info id="UI Designer" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.3291874" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32504147" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39966834" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3281372" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3561964" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3990647" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.3288854" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32969603" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.32967034" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.3288854" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Build" order="10" weight="0.22139303" />
-      <window_info anchor="bottom" id="Messages" order="11" weight="0.3291874" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.3281372" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -434,205 +599,386 @@
       <window_info anchor="right" id="Theme Preview" order="6" />
       <window_info anchor="right" id="Capture Analysis" order="7" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
+      <window_info anchor="right" id="Coverage" order="9" side_tool="true" weight="0.3297491" />
     </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.09216726" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3281372" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3561964" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3990647" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32969603" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.32967034" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.3288854" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Build" order="10" weight="0.22139303" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.3281372" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Maven" order="4" />
+      <window_info anchor="right" id="Gradle" order="5" weight="0.329566" />
+      <window_info anchor="right" id="Theme Preview" order="6" />
+      <window_info anchor="right" id="Capture Analysis" order="7" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+      <window_info anchor="right" id="Coverage" order="9" side_tool="true" weight="0.3297491" />
+    </layout-to-restore>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/main/kotlin/client/engine/graphics/Mesh.kt</url>
+          <line>2</line>
+          <properties />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/main/kotlin/server/ServerClient.kt</url>
+          <line>2</line>
+          <properties />
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/abcd/Main.kt" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/engine/Screen.java">
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/net/client/NetClient.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="20">
-          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+        <state relative-caret-position="100">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/settings.gradle">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build.gradle">
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/net/client/NetClientImpl.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1860">
-          <caret line="93" column="1" selection-start-line="93" selection-start-column="1" selection-end-line="93" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/engine/Camera.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="99">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.lwjgl/lwjgl-glfw/3.2.3/1a9ca088c5c46bf4a3948819a70009da32b1d156/lwjgl-glfw-3.2.3-sources.jar!/org/lwjgl/glfw/GLFWKeyCallback.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/clientside/TcpConnection.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="56" column="4" selection-start-line="56" selection-start-column="4" selection-end-line="56" selection-end-column="4" />
+        <state relative-caret-position="835">
+          <caret line="74" lean-forward="true" selection-start-line="74" selection-end-line="74" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#20#150#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/clientside/models/ServerMessage.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/moonscapes/netplay/ClientHandler.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/net/utils/Command.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="18" column="5" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
+        <state relative-caret-position="40">
+          <caret line="2" column="9" selection-start-line="2" selection-start-column="9" selection-end-line="2" selection-end-column="9" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/clientside/models/CharacterObj.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/moonscapes/netplay/server/ServerPacketFactory.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/moonscapes/netplay/client/ClientPacketFactory.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/net/client/ClientPacketFactory.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+        <state relative-caret-position="320">
+          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/clientside/models/Bullet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="26" selection-start-column="26" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/clientside/models/Box.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="20">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/clientside/UdpConnection.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/clientside/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5180">
-          <caret line="259" column="17" selection-start-line="259" selection-start-column="17" selection-end-line="259" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/clientside/Helper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="181">
-          <caret line="45" column="4" lean-forward="true" selection-start-line="45" selection-start-column="4" selection-end-line="45" selection-end-column="4" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.lwjgl/lwjgl-glfw/3.2.3/1a9ca088c5c46bf4a3948819a70009da32b1d156/lwjgl-glfw-3.2.3-sources.jar!/org/lwjgl/glfw/GLFW.java" />
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.lwjgl/lwjgl-opengl/3.2.3/2d7ad358a5133db65ee8b1c97cf1f1a426597598/lwjgl-opengl-3.2.3-sources.jar!/org/lwjgl/opengl/GL11.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/kotlin/engine/io/Input.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="521">
-          <caret line="45" lean-forward="true" selection-start-line="45" selection-end-line="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/kotlin/engine/math/Vector3f.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="6" column="2" lean-forward="true" selection-start-line="6" selection-start-column="2" selection-end-line="6" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/kotlin/main/Main.kt">
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/moonscapes/netplay/server/NetplayServerImpl.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/net/packet/UpdateObjectPacket.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="140">
-          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-common/1.3.21/224a3bcfa1c088dd5d7c4a3958a68427b44c65dc/kotlin-stdlib-common-1.3.21-sources.jar!/kotlin/util/Preconditions.kt" />
-    <entry file="file://$PROJECT_DIR$/resources/shaders/mainFragment.glsl" />
-    <entry file="file://$PROJECT_DIR$/resources/shaders/mainVertex.glsl" />
-    <entry file="file://$PROJECT_DIR$/src/main/kotlin/engine/graphics/Shader.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="281">
-          <caret line="21" selection-start-line="21" selection-end-line="21" />
+          <caret line="7" column="6" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
           <folding>
-            <element signature="e#25#83#0" expanded="true" />
+            <element signature="e#23#141#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/kotlin/engine/io/Window.kt">
+    <entry file="jar://C:/Program Files/Java/jdk-11.0.2/lib/src.zip!/java.base/java/io/DataInputStream.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1580">
-          <caret line="89" column="70" selection-start-line="89" selection-start-column="70" selection-end-line="89" selection-end-column="70" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/kotlin/engine/utils/FileUtils.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="26" column="56" selection-start-line="26" selection-start-column="56" selection-end-line="26" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/kotlin/engine/graphics/Mesh.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="22" selection-start-line="22" selection-end-line="22" />
-          <folding>
-            <element signature="e#25#203#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/engine/Game.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="780">
-          <caret line="45" column="35" selection-start-line="45" selection-start-column="35" selection-end-line="45" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/kotlin/engine/graphics/Renderer.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="22" column="1" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
-          <folding>
-            <element signature="e#25#111#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/kotlin/engine/graphics/Vertex.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        <state relative-caret-position="347">
+          <caret line="319" column="37" lean-forward="true" selection-start-line="319" selection-start-column="37" selection-end-line="319" selection-end-column="37" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/shaders/mainVertex.glsl">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/shaders/crosshairVertex.glsl">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/shaders/mainFragment.glsl">
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/client/engine/graphics/Renderer.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        <state relative-caret-position="520">
+          <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/engine/Texture.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/moonscapes/netplay/client/NetplayClientImpl.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/moonscapes/netplay/Netplay.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/moonscapes/server/Server.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/moonscapes/packet/UpdateObjectsPacket.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/net/packet/LoginSuccessPacket.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="620">
-          <caret line="34" column="1" selection-start-line="34" selection-start-column="1" selection-end-line="34" selection-end-column="1" />
+        <state relative-caret-position="240">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+          <folding>
+            <element signature="e#23#106#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/net/packet/UpdateObjectsPacket.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="11" column="4" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="4" />
+          <folding>
+            <element signature="e#23#187#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/server/Player.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="40">
+          <caret line="2" column="22" lean-forward="true" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/server/World.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="7" column="35" selection-start-line="7" selection-start-column="35" selection-end-line="7" selection-end-column="35" />
+          <folding>
+            <element signature="e#16#103#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/net/packet/UpdatePlayersPacket.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="28" column="9" selection-start-line="28" selection-start-column="9" selection-end-line="28" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/server/Server.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="578">
+          <caret line="122" column="45" selection-start-line="122" selection-start-column="45" selection-end-line="122" selection-end-column="45" />
+          <folding>
+            <element signature="e#16#84#0" expanded="true" />
+            <marker date="1608593162955" expanded="true" signature="1238:1351" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/client/engine/objects/camera/FirstPersonCamera.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="344">
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/net/packet/UpdatePlayerPacket.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="438">
+          <caret line="25" selection-start-line="25" selection-end-line="25" />
+          <folding>
+            <element signature="e#23#162#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/net/client/ClientHandler.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="18" lean-forward="true" selection-start-column="18" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/server/ServerObject.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="5" column="14" lean-forward="true" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/moonscapes/client/Client.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/client/engine/io/Window.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="30" column="42" selection-start-line="30" selection-start-column="42" selection-end-line="30" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/client/engine/graphics/Vertex.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="5" column="6" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/client/engine/graphics/Shader.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/server/Client.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="4" column="18" lean-forward="true" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/net/utils/AddressPort.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="4" column="6" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/net/server/IServerHandler.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/net/packet/BasePacketFactory.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="31" column="13" lean-forward="true" selection-start-line="31" selection-start-column="13" selection-end-line="31" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/net/server/ServerPacketFactory.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="13" column="41" lean-forward="true" selection-start-line="13" selection-start-column="41" selection-end-line="13" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/net/packet/InputPacket.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="5" column="6" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/net/packet/PacketFactory.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="5" column="10" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/net/packet/PacketHandler.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="4" column="10" selection-start-line="4" selection-start-column="10" selection-end-line="4" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/net/packet/PacketNameMapper.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="9" column="55" lean-forward="true" selection-start-line="9" selection-start-column="55" selection-end-line="9" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/net/socket/SocketListener.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="460">
+          <caret line="27" column="16" selection-start-line="27" selection-start-column="16" selection-end-line="27" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/client/engine/objects/GameObject.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="7" column="11" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/net/socket/DatagramListener.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="9" column="6" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
+          <folding>
+            <element signature="e#20#191#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/net/socket/DatagramSender.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/server/Main.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="7" column="1" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/net/server/NetServerImpl.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1040">
+          <caret line="66" column="13" selection-start-line="66" selection-start-column="13" selection-end-line="66" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/net/packet/LoginPacket.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" selection-start-line="3" selection-start-column="31" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/client/engine/graphics/Mesh.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+          <folding>
+            <element signature="e#32#280#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/server/ServerClient.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
+          <folding>
+            <element signature="e#16#97#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/net/Net.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/client/main/Main.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="18" column="33" selection-start-line="18" selection-start-column="33" selection-end-line="18" selection-end-column="33" />
         </state>
       </provider>
     </entry>
@@ -688,7 +1034,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>gameproject.gameproject</last-edited>
+          <last-edited>test|gameproject.gameproject</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
