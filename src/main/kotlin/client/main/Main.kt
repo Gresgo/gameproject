@@ -18,6 +18,7 @@ class Main: Runnable {
     override fun run() {
         val window = Window.get()
         window.setBackgroundColor(0F, 0.75F, 1F)
+//        window.setBackgroundColor(0F, 1F, 0F)
         window.start()
     }
 }

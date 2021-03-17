@@ -22,7 +22,7 @@ class Server(port: Int): IServerHandler, Runnable {
     }
 
     override fun run() {
-        val delay = 1000L / 60
+        val delay = 1000L / 20
         while (isRunning) {
             try {
                 Thread.sleep(delay)
