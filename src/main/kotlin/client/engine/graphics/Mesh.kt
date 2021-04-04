@@ -9,7 +9,7 @@ import org.lwjgl.opengl.GL30
 import org.lwjgl.system.MemoryUtil
 import java.nio.FloatBuffer
 
-class Mesh(private val vertices: Array<Vertex>, val indices: IntArray, val material: Material) {
+class Mesh(val vertices: Array<Vertex>, val indices: IntArray, val material: Material) {
 
     var vao = 0
     var pbo = 0

@@ -31,7 +31,8 @@ abstract class BasePacketFactory: PacketFactory {
             //e.printStackTrace()
             //throw e
             //return ClosePacket()
-            exitProcess(10)
+//            exitProcess(10)
+            return ChatPacket()
         }
     }
 

@@ -26,6 +26,7 @@ import java.util.*
  * TODO: (1) Render only visible block sides on frame (probably ~x6 performance)
  *              ** visible means that no blocks have same side with current **
  *       (2) Get real player rotation
+ *       (3) Detect collisions
  */
 class Window(private var width: Int = 1280,
              private var height: Int = 720,
@@ -142,8 +143,10 @@ class Window(private var width: Int = 1280,
         meshes.forEach {
             it.create()
         }
+//        playerMesh.vertices.
         //mesh.create()
         shader.create()
+        val picker = MousePicker(camera, projectionMatrix)
         while (!glfwWindowShouldClose(window) && !Input.isKeyDown(GLFW_KEY_ESCAPE) && isRunning) {
             val t = System.currentTimeMillis()
             if (isResized) {
@@ -178,6 +181,8 @@ class Window(private var width: Int = 1280,
                 change = 1
             }
             if (glfwGetInputMode(window, GLFW_CURSOR) == GLFW_CURSOR_DISABLED) camera.update()
+            picker.update()
+
             players.forEach {
                 if (it.id != player.id) renderer.renderGameObject(it, camera)
             }
