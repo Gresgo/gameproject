@@ -12,10 +12,11 @@ class World {
     init {
         serverObjects.clear()
         for (x in -8..8)
-            for (y in 0..4)
-                for (z in -8..8)
+//            for (y in 0..4)
+                for (z in -1..8)
                     serverObjects.add(ServerObject().apply {
                         id = 1
+                        val y = 0
                         position = Vector3f(x.toFloat(), y.toFloat(), z.toFloat())
                         rotation = Vector3f(0F, 0F, 0F)
                     })

@@ -72,6 +72,12 @@ class Window(private var width: Int = 1280,
         Vector3f(1F, 1F, 1F),
         playerMesh
     )
+    val dummy = GameObject(
+        Vector3f(0F, 5F, 0F),
+        Vector3f(0F, 0F, 0F),
+        Vector3f(1F, 1F, 1F),
+        playerMesh
+    )
     var players = Vector<GameObject>()
 
     lateinit var camera: Camera
@@ -143,8 +149,6 @@ class Window(private var width: Int = 1280,
         meshes.forEach {
             it.create()
         }
-//        playerMesh.vertices.
-        //mesh.create()
         shader.create()
         val picker = MousePicker(camera, projectionMatrix)
         while (!glfwWindowShouldClose(window) && !Input.isKeyDown(GLFW_KEY_ESCAPE) && isRunning) {
@@ -186,10 +190,26 @@ class Window(private var width: Int = 1280,
             players.forEach {
                 if (it.id != player.id) renderer.renderGameObject(it, camera)
             }
-            gameObjects.forEach {
+            val point = picker.currentPoint
+            point?.let { dummy.position = it }
+            renderer.renderGameObject(dummy, camera)
+            var remove: Int? = null
+            gameObjects.forEachIndexed { index, it ->
+                val cubemin = Vector3f.substract(it.position, Vector3f(0.5f, 0.5f, 0.5f))
+                val cubemax = Vector3f.add(it.position, Vector3f(0.5f, 0.5f, 0.5f))
+                if (Input.isButtonDown(GLFW_MOUSE_BUTTON_LEFT) && point != null) {
+                    if (point.x < cubemin.x || point.y < cubemin.y || point.z < cubemin.z
+                        || point.x > cubemax.x || point.y > cubemax.y || point.z > cubemax.z)
+                    {
+
+                    } else {
+                        remove = index
+                    }
+                }
                 renderer.renderGameObject(it, camera)
                 it.update()
             }
+            remove?.let { gameObjects.removeAt(it) }
             glfwSwapBuffers(window)
             if (fps > 0) {
                 val delay = fpsTime.toLong() - (System.currentTimeMillis() - t)
@@ -226,6 +246,7 @@ class Window(private var width: Int = 1280,
     }
 
     private fun updateObjects(packet: UpdateObjectsPacket) {
+        if (gameObjects.size != 0) return
         val objects = Vector<GameObject>()
         //gameObjects.clear()
         packet.serverObjects.forEach {
