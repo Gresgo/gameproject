@@ -21,12 +21,13 @@ class MousePicker(
         viewMatrix = Matrix4f.view(camera.position, camera.rotation)
         convertView()
         currentRay = calculateMouseRay()
-//        currentPoint = getPointOnRay(currentRay, 5f)
-        if (intersectionInRange(0f, 10f, currentRay)) {
-            currentPoint = binarySearch(0, 0f, 10f, currentRay)
-        } else {
-            currentPoint = null
-        }
+        //
+        currentPoint = getPointOnRay(currentRay, 5f)
+//        if (intersectionInRange(0f, 10f, currentRay)) {
+//            currentPoint = binarySearch(0, 0f, 10f, currentRay)
+//        } else {
+//            currentPoint = null
+//        }
     }
 
     private fun convertView() {
@@ -85,8 +86,12 @@ class MousePicker(
     }
 
     private fun calculateMouseRay(): Vector3f {
-        val normalizedCoors = getNormalizedDeviceCords(Input.mouseX.toFloat(), Input.mouseY.toFloat())
-        val clipCords = Vector4f(normalizedCoors.x, normalizedCoors.y, -1f, 1f)
+        // follow cursor
+//        val normalizedCoors = getNormalizedDeviceCords(Input.mouseX.toFloat(), Input.mouseY.toFloat())
+
+        // follow camera
+        val normalizedCords = Vector2f(0f, 0f)
+        val clipCords = Vector4f(normalizedCords.x, normalizedCords.y, -1f, 1f)
         val eyeCords = toEyeCords(clipCords)
         val worldRay = toWorldCords(eyeCords)
         return worldRay

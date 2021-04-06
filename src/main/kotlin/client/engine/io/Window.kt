@@ -191,9 +191,10 @@ class Window(private var width: Int = 1280,
                 if (it.id != player.id) renderer.renderGameObject(it, camera)
             }
             val point = picker.currentPoint
-            point?.let { dummy.position = it }
-            renderer.renderGameObject(dummy, camera)
+//            point?.let { dummy.position = it }
+//            renderer.renderGameObject(dummy, camera)
             var remove: Int? = null
+            var add: GameObject? = null
             gameObjects.forEachIndexed { index, it ->
                 val cubemin = Vector3f.substract(it.position, Vector3f(0.5f, 0.5f, 0.5f))
                 val cubemax = Vector3f.add(it.position, Vector3f(0.5f, 0.5f, 0.5f))
@@ -206,10 +207,14 @@ class Window(private var width: Int = 1280,
                         remove = index
                     }
                 }
+                if (Input.isButtonDown(GLFW_MOUSE_BUTTON_RIGHT) && point != null) {
+                    add = GameObject(position = Vector3f(point.x, point.y, point.z), mesh = dirtMesh)
+                }
                 renderer.renderGameObject(it, camera)
                 it.update()
             }
             remove?.let { gameObjects.removeAt(it) }
+            add?.let { gameObjects.add(it) }
             glfwSwapBuffers(window)
             if (fps > 0) {
                 val delay = fpsTime.toLong() - (System.currentTimeMillis() - t)
